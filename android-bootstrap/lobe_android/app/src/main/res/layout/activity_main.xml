@@ -30,7 +30,14 @@
             android:id="@+id/container"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            app:layout_anchorGravity="center"></FrameLayout>
+            app:layout_anchorGravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </FrameLayout>
 
         <ImageView
             android:id="@+id/myImageView"
